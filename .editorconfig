@@ -1,0 +1,15 @@
+root = true
+
+[*]
+trim_trailing_whitespace = true
+insert_final_newline = true
+end_of_line = CRLF
+
+[*.{c,cpp,h,hpp}]
+indent_style = space
+indent_size = 2
+curly_bracket_next_line = false
+
+[*.def]
+indent_style = space
+indent_size = 4
